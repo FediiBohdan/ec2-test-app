@@ -11,7 +11,7 @@ public class Ec2TestAppApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to AWS!!";
+        return "Welcome to AWS!!!";
     }
 
     public static void main(String[] args) {
